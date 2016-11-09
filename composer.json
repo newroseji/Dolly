@@ -1,5 +1,5 @@
 {
-    "name": "laracasts/dolly",
+    "name": "dhukuti/dolly",
     "description": "A test package using Russian Doll Caching technique in Laravel.",
     "license": "MIT",
     "keywords":["laravel","cache","dolly","laracast","test"],
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4":{
-            "Laracasts\\Dolly\\":"src/"
+            "Dhukuti\\Dolly\\":"src/"
         }
     },
     "autoload-dev": {

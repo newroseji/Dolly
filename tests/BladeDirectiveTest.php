@@ -1,7 +1,7 @@
 <?php
 
-use Laracasts\Dolly\RussianCaching;
-use Laracasts\Dolly\BladeDirective;
+use Dhukuti\Dolly\RussianCaching;
+use Dhukuti\Dolly\BladeDirective;
 /**
  * Created by PhpStorm.
  * User: byanjni

@@ -1,5 +1,5 @@
 <?php
-namespace Laracasts\Dolly;
+namespace Dhukuti\Dolly;
 
 
 class BladeDirective

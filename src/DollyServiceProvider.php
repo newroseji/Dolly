@@ -1,6 +1,6 @@
 <?php
 
-namespace Laracasts\Dolly;
+namespace Dhukuti\Dolly;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
@@ -15,11 +15,11 @@ class DollyServiceProvider extends ServiceProvider
     public function boot()
     {
         Blade::directive('cache', function ($expression) {
-            return "<?php if (! app('Laracasts\Dolly\BladeDirective')->setUp{$expression}){ ?>";
+            return "<?php if (! app('Dhukuti\Dolly\BladeDirective')->setUp{$expression}){ ?>";
         });
 
         Blade::directive('endcache', function () {
-            return "<?php } echo app('Laracasts\Dolly\BladeDirective')->tearDown() ?>";
+            return "<?php } echo app('Dhukuti\Dolly\BladeDirective')->tearDown() ?>";
         });
     }
 

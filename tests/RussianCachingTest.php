@@ -1,6 +1,6 @@
 <?php
 
-use Laracasts\Dolly\RussianCaching;
+use Dhukuti\Dolly\RussianCaching;
 /**
  * Created by PhpStorm.
  * User: byanjni

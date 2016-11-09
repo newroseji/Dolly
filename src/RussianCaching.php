@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Laracasts\Dolly;
+namespace Dhukuti\Dolly;
 
 use Illuminate\Contracts\Cache\Repository as Cache;
 
